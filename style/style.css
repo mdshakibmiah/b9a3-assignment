@@ -1,0 +1,25 @@
+.program{
+    color: #131318;
+text-align: center;
+font-family: Manrope;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 70px;
+}
+.paragraph{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.main-image{
+    display: flex;
+    justify-content: space-between;
+}
