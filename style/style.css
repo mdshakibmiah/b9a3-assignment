@@ -1,3 +1,14 @@
+
+.head{
+    gap: 20px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    
+}
 .program1{ padding-top: 30px;
     background-image: url(../Images/2.png);
     width: 573px;
