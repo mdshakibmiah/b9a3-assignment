@@ -1,25 +1,107 @@
-.program{
-    color: #131318;
-text-align: center;
-font-family: Manrope;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-top: 70px;
+.program1{ padding-top: 30px;
+    background-image: url(../Images/2.png);
+    width: 573px;
+    height: 338px;
+    flex-shrink: 0;    
 }
-.paragraph{
-    color: rgba(19, 19, 24, 0.60);
+.program2{ padding-top: 30px;
+    background-image: url(../Images/3.png);
+    width: 573px;
+    height: 338px;
+    flex-shrink: 0;    
+}
+.btnp { color: #FFF;
     text-align: center;
-    font-family: Manrope;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 26px; /* 162.5% */
-    margin-top: 24px;
-    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #FF4240;
+    background: #FF4240;
+
 }
-.main-image{
-    display: flex;
-    justify-content: space-between;
+.professionalprogram{ padding-top: 30px;
+    background-image: url(../Images/4.png);
+    width: 1170px;
+    height: 450px;
+    flex-shrink: 0;  
+ } 
+ .programr1{ 
+    background-image: url(../Images/2.png);
+    width: 365px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 12px;
+
+ }
+ .programr2{ 
+    background-image: url(../Images/3.png);
+    width: 365px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 12px;
+
+ }
+ .programr3{ 
+    background-image: url(../Images/4.png);
+    width: 365px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 12px;
+ }
+  .formtttl{color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+    .placeholder{  padding-left: 20px;
+    width: 324px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+    }
+     .masgbtn{display: flex;
+        
+        padding: 15px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; 
+        border-radius: 12px;
+        border: 1px solid #FF4240;
+        background: #FF4240;
+        color: #FFF;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;       
+        line-height: normal;
+    }
+    .label{
+        color: #131318;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+ @media screen and (max-width:576px) {
+     .program1,
+     .professionalprogram,
+     .program2,
+     .ftr{ display: none;}
+    
+ }
+
+ @media screen and (min-width:577px) {
+    .program1,
+    .professionalprogram,
+    .program2{ }
+    #programresponsive,
+    #footerresponsive 
+    { display: none;}
+   
 }
